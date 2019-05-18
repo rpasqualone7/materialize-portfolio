@@ -1,0 +1,240 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+
+    <title>Materialize Portfolio</title>
+    <style>
+        body {
+            min-height: 200vh;
+        }
+
+        .section {
+            /* padding-top: 4vw; */
+            padding-bottom: 4vw;
+
+        }
+
+        .thin-text {
+            font-weight: 300;
+            background: rgba(184, 180, 180, .5);
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        #featured-header {
+            font-size: 80px;
+            margin-top: 0%
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="nav-wrapper grey">
+        <div class="container">
+            <a href="" class="brand-logo">Rich Pasqualone // Full Stack Developer</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://www.linkedin.com/in/rich-pasqualone-b53425183/"
+                        class="tooltipped btn-floating btn-large grey darken-1" data-tooltip="LinkedIn" target="blank">
+                        <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/rpasqualone7/" class="tooltipped btn-floating btn-large grey darken-1"
+                        data-tooltip="GitHub" target="blank"><i class="fab fa-github-square"></i></a>
+                </li>
+            </ul>
+            <!-- <ul class="sidenv grey lighten-2" id="mobile-menu">
+                    <li> <a href="#">Photos</a></li>
+                    <li> <a href="#">Photos</a></li>
+                    <li> <a href="#">Photos</a></li>
+                </ul> -->
+        </div>
+    </nav>
+
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col l8 s12 white-text">
+                    <h4 class="thin-text left-align valign">Hey there, my name is Rich. I'm a budding full stack web
+                        developer, and this is my portfolio.</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/code-again.jpg" class="responsive-img"></div>
+    </div>
+
+
+    <section class="container section" id="photos">
+        <div class="row">
+        <div class="class col s12 valign center">
+            <h1 class="indigo-text text-darken-4" id="featured-header"> Featured Projects</h1>
+        </div>
+    </div>
+    
+    <br> 
+    
+    <br>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="images/when-you're-bored.png" alt="when you're bored" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <a href="https://rpasqualone7.github.io/Group-Project-1/" target="_blank">
+                    <h2 class="indigo-text text-darken-4">When You're Bored</h2>
+                </a>
+                <p>An app created as part of my first group project. The user enters their information into the form
+                    provided in the UI, and in response gets weather data based on their location, and their information
+                    gets stored on the table above using Firebase</p>
+                <p><a href="https://github.com/rpasqualone7/Group-Project-1" target="blank">See the code here</a></p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="images/callo-homepage.png" callo" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <a href="https://safe-escarpment-66983.herokuapp.com/" target="blank">
+                    <h2 class="indigo-text text-darken-4">Callo</h2>
+                </a>
+                <p>Callo is a calorie allocation app I helped create as part of our second group project. Using
+                    Materialize, Node, MYSQL and Sequelize, the app takes user input and equall distributes their
+                    alloted caloric intake between 1-6 meals per day.</p>
+                <p><a href="https://github.com/qgwright/Group-Project-2" target="blank">See the code here</a></p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="images/train-scheduler.png" alt="trivia game" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <a href="https://rpasqualone7.github.io/Train-Scheduler/" target="blank">
+                    <h2 class="indigo-text text-darken-4">Train Scheduler</h2>
+                </a>
+                <p>An app that uses Firebase to log user input in order to find real-time data on train schedules based
+                    on the tain name and destination. </p>
+                <p><a href="https://github.com/rpasqualone7/Train-Scheduler" target="blank">See the code here</a></p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="images/trivia-game.png" alt="trivia game" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <a href="https://rpasqualone7.github.io/TriviaGame/" target="blank">
+                    <h2 class="indigo-text text-darken-4">Trivia Game</h2>
+                </a>
+                <p>A multiple choice trivia game in which the user has a limited amount of time to complete the
+                    game.
+                    Once time is up, or the user clicks the "submit" button, the game will then display their
+                    results on
+                    a new screen.</p>
+                <p><a href="https://github.com/rpasqualone7/TriviaGame" target="blank">See the code here</a></p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="images/giphy-api.png" alt="giphy api" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <a href="https://rpasqualone7.github.io/GiphyAPI/" target="blank">
+                    <h2 class="indigo-text text-darken-4">Giphy API </h2>
+                </a>
+                <p>This app starts the user off with a row of buttons that, when clicked, will display gifs that
+                    relate
+                    to the subject of said button. Users can add more buttons using the search bar on the right side
+                    of
+                    the screen.</p>
+                <p><a href="https://github.com/rpasqualone7/GiphyAPI" target="blank">See the code here</a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/code-darker.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <section class="container section" id="contact">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">Get in touch with me!</h2>
+
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#phone" class="indigo-text text-darken-4">Phone Number</a>
+                    <li class="tab col s6">
+                        <a href="#email" class="indigo-text text-darken-4">Email</a>
+
+                    </li>
+                </ul>
+                <div class="col s12" id="phone">
+                    <p class="flow-text indigo-text text-darken-4">Phone Number</p>
+                    <p> Reaching me by via my cell phone is the most direct way to get in touch with me. Feel free to
+                        reach out by text, or simply give me a call!</p>
+                    <p>610-554-4345</p>
+                </div>
+                <div class="col s12" id="email">
+                    <p class="flow-text indigo-text text-darken-4">Email</p>
+                    <p>You can also reach me via emai, which I check on a daily basis.</p>
+                    <p>highwater92@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+
+
+        });
+    </script>
+</body>
+
+</html>
